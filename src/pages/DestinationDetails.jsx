@@ -39,8 +39,8 @@ const DestinationDetails = () => {
             alt={selectedDestination.name}
             className="w-full h-full object-cover absolute"
           />
-          <div className="absolute inset-0 bg-[rgba(0,0,0,0.5)] flex items-center">
-            <div className="container mx-auto px-4 text-white bg-gradient-to-r from-[rgba(0,0,0,0.6)] from-[10%]  to-transparent to-[40%]  p-8 rounded-lg">
+          <div className="absolute inset-0 bg-[rgba(0,0,0,0.2)] flex items-center">
+            <div className="container mx-auto px-4 text-white bg-gradient-to-r from-[rgba(0,0,0,0.6)] from-[10%]  to-transparent to-[50%]  p-8 rounded-lg">
               <h1 className="text-4xl md:text-5xl font-bold mb-4 drop-shadow-lg">
                 {selectedDestination.name}
               </h1>

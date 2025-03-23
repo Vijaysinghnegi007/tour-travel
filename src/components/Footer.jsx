@@ -150,7 +150,7 @@ function Footer() {
               </li>
               <li>
                 <Link
-                  to="/destinations4"
+                  to="/destinations/4"
                   className="hover:text-blue-500 hover:underline transition duration-300"
                 >
                   Nainital

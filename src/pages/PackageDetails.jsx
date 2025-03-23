@@ -104,9 +104,9 @@ const PackageDetails = () => {
             alt={tourPackage.title}
             className="w-full h-full object-cover absolute bg"
           />
-          <div className="absolute inset-0 bg-opacity-40">
-            <div className="container mx-auto px-4 h-full flex items-center bg-gradient-to-r from-[rgba(0,0,0,0.81)] from-[0%]  to-transparent to-[100%]">
-              <div className="text-white  ">
+          <div className="absolute inset-0 bg-opacity-40 flex items-center bg-[rgba(0,0,0,0.5)]">
+            <div className="container mx-auto px-4 text-white bg-gradient-to-r from-[rgba(0,0,0,0.6)] from-[10%]  to-transparent to-[80%]  p-8 rounded-lg">
+              <div className="text-white">
                 <span className="inline-block bg-indigo-600 px-4 py-2 rounded-full text-sm font-semibold mb-4">
                   {tourPackage.category}
                 </span>
