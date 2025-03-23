@@ -1,4 +1,6 @@
 import React from "react";
+import { useParams } from "react-router-dom";
+import destinations from "./destination";
 import {
   MapPin,
   Calendar,
@@ -9,32 +11,10 @@ import {
   Compass,
 } from "lucide-react";
 
-const destination = [
-  {
-    id: 1,
-    name: "Kedarnath",
-    image: "/images/kedarnath.jpg",
-    description: "One of the holiest Hindu temples dedicated to Lord Shiva",
-    bestTime: "May to June, September to October",
-    weather: "Cold",
-    altitude: "3,583 m",
-    category: "Pilgrimage",
-  },
-  {
-    id: 2,
-    name: "Rishikesh",
-    image: "/images/rishikesh.avif",
-    description: "World Capital of Yoga and Adventure Sports Hub",
-    bestTime: "September to April",
-    weather: "Moderate",
-    altitude: "372 m",
-    category: "Adventure",
-  },
-];
-
-const DestinationDetails = ({ selectedId = 1 }) => {
-  const selectedDestination = destination.find(
-    (dest) => dest.id === selectedId
+const DestinationDetails = () => {
+  const { id } = useParams();
+  const selectedDestination = destinations.find(
+    (dest) => dest.id === parseInt(id)
   );
 
   if (!selectedDestination) {
@@ -60,7 +40,7 @@ const DestinationDetails = ({ selectedId = 1 }) => {
             className="w-full h-full object-cover absolute"
           />
           <div className="absolute inset-0 bg-[rgba(0,0,0,0.5)] flex items-center">
-            <div className="container mx-auto px-4 text-white">
+            <div className="container mx-auto px-4 text-white bg-gradient-to-r from-[rgba(0,0,0,0.6)] from-[10%]  to-transparent to-[40%]  p-8 rounded-lg">
               <h1 className="text-4xl md:text-5xl font-bold mb-4 drop-shadow-lg">
                 {selectedDestination.name}
               </h1>

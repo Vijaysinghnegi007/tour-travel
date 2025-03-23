@@ -118,7 +118,7 @@ function Footer() {
             <ul className="space-y-2">
               <li>
                 <Link
-                  to="/destinations"
+                  to="/destinations/1"
                   className="hover:text-blue-500 hover:underline transition duration-300"
                 >
                   Kedarnath
@@ -126,7 +126,7 @@ function Footer() {
               </li>
               <li>
                 <Link
-                  to="/destinations"
+                  to="/destinations/5"
                   className="hover:text-blue-500 hover:underline transition duration-300"
                 >
                   Badrinath
@@ -134,7 +134,7 @@ function Footer() {
               </li>
               <li>
                 <Link
-                  to="/destinations"
+                  to="/destinations/2"
                   className="hover:text-blue-500 hover:underline transition duration-300"
                 >
                   Rishikesh
@@ -142,7 +142,7 @@ function Footer() {
               </li>
               <li>
                 <Link
-                  to="/destinations"
+                  to="/destinations/3"
                   className="hover:text-blue-500 hover:underline transition duration-300"
                 >
                   Mussoorie
@@ -150,7 +150,7 @@ function Footer() {
               </li>
               <li>
                 <Link
-                  to="/destinations"
+                  to="/destinations4"
                   className="hover:text-blue-500 hover:underline transition duration-300"
                 >
                   Nainital

@@ -96,18 +96,17 @@ const PackageDetails = () => {
 
   return (
     <div className="min-h-screen">
-    
       <div className="pt-20 bg-gray-50">
         {/* Hero Section */}
-        <div className="relative h-96">
+        <div className="relative h-96 ">
           <img
             src={tourPackage.image}
             alt={tourPackage.title}
             className="w-full h-full object-cover absolute bg"
           />
           <div className="absolute inset-0 bg-opacity-40">
-            <div className="container mx-auto px-4 h-full flex items-center">
-              <div className="text-white">
+            <div className="container mx-auto px-4 h-full flex items-center bg-gradient-to-r from-[rgba(0,0,0,0.81)] from-[0%]  to-transparent to-[100%]">
+              <div className="text-white  ">
                 <span className="inline-block bg-indigo-600 px-4 py-2 rounded-full text-sm font-semibold mb-4">
                   {tourPackage.category}
                 </span>
@@ -265,7 +264,6 @@ const PackageDetails = () => {
           </div>
         </div>
       </div>
-     
     </div>
   );
 };
