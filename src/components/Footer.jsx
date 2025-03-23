@@ -61,7 +61,7 @@ function Footer() {
             <ul className="space-y-2">
               <li>
                 <Link
-                  to="/"
+                  to="/home"
                   className="hover:text-blue-500 hover:underline transition duration-300"
                 >
                   Home
