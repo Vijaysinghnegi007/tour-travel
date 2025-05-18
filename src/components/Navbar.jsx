@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Menu, X, MapPin, Phone, Mail } from "lucide-react";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -14,33 +15,33 @@ function Navbar() {
           </div>
           {/* Desktop Menu */}
           <div className="hidden lg:flex items-center space-x-8">
-            <a href="/home" className="text-gray-700 hover:text-indigo-600">
+            <link to="/home" className="text-gray-700 hover:text-indigo-600">
               Home
-            </a>
-            <a href="/packages" className="text-gray-700 hover:text-indigo-600">
+            </link>
+            <link to="/packages" className="text-gray-700 hover:text-indigo-600">
               Tour Packages
-            </a>
-            <a
-              href="/destinations"
+            </link>
+            <link
+              to="/destinations"
               className="text-gray-700 hover:text-indigo-600"
             >
               Destinations
-            </a>
-            <a href="/about" className="text-gray-700 hover:text-indigo-600">
+            </link>
+            <link to="/about" className="text-gray-700 hover:text-indigo-600">
               About
-            </a>
-            <a href="/blog" className="text-gray-700 hover:text-indigo-600">
+            </link>
+            <link to="/blog" className="text-gray-700 hover:text-indigo-600">
               blog
-            </a>
-            <a href="/contact" className="text-gray-700 hover:text-indigo-600">
+            </link>
+            <li to="/contact" className="text-gray-700 hover:text-indigo-600">
               Contact
-            </a>
-            <a
-              href="/login"
+            </li>
+            <link
+              to="/login"
               className="bg-indigo-600 text-white px-6 py-2 rounded-full hover:bg-indigo-700 transition duration-300"
             >
               Login
-            </a>
+            </link>
           </div>
 
           {/* Mobile Menu Button */}
@@ -53,39 +54,39 @@ function Navbar() {
         {isOpen && (
           <div className="lg:hidden">
             <div className="flex flex-col space-y-4 py-4">
-              <a href="/home" className="text-gray-700 hover:text-indigo-600">
+              <link to="/home" className="text-gray-700 hover:text-indigo-600">
                 Home
-              </a>
-              <a
-                href="/packages"
+              </link>
+              <link
+                to="/packages"
                 className="text-gray-700 hover:text-indigo-600"
               >
                 Tour Packages
-              </a>
-              <a
-                href="/destinations"
+              </link>
+              <link
+                to="/destinations"
                 className="text-gray-700 hover:text-indigo-600"
               >
                 Destinations
-              </a>
-              <a href="/about" className="text-gray-700 hover:text-indigo-600">
+              </link>
+              <link to="/about" className="text-gray-700 hover:text-indigo-600">
                 About
-              </a>
-              <a href="/blog" className="text-gray-700 hover:text-indigo-600">
+              </link>
+              <link to="/blog" className="text-gray-700 hover:text-indigo-600">
                 blog
-              </a>
-              <a
-                href="/contact"
+              </link>
+              <link
+                to="/contact"
                 className="text-gray-700 hover:text-indigo-600"
               >
                 Contact
-              </a>
-              <a
-                href="/login"
+              </link>
+              <link
+                to="/login"
                 className="bg-indigo-600 text-white px-6 py-2 rounded-full hover:bg-indigo-700 transition duration-300 text-center"
               >
                 Login
-              </a>
+              </link>
             </div>
           </div>
         )}
