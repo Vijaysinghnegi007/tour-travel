@@ -4,7 +4,7 @@ const destination = [
   {
     id: 1,
     name: "Kedarnath",
-    image: "/images/kedarnath.jpg",
+    image: "images/kedarnath.jpg",
     description: "One of the holiest Hindu temples dedicated to Lord Shiva",
     bestTime: "May to June, September to October",
     weather: "Cold",
@@ -14,7 +14,7 @@ const destination = [
   {
     id: 2,
     name: "Rishikesh",
-    image: "/images/rishikesh.avif",
+    image: "images/rishikesh.avif",
     description: "World Capital of Yoga and Adventure Sports Hub",
     bestTime: "September to April",
     weather: "Moderate",
@@ -24,7 +24,7 @@ const destination = [
   {
     id: 3,
     name: "Mussoorie",
-    image: "/images/mussoorie.png",
+    image: "images/mussoorie.png",
     description: "Queen of Hills with panoramic Himalayan views",
     bestTime: "March to June, September to November",
     weather: "Pleasant",
@@ -34,7 +34,7 @@ const destination = [
   {
     id: 4,
     name: "Nainital",
-    image: "/images/nainital.png",
+    image: "images/nainital.png",
     description: "Famous lake city surrounded by mountains",
     bestTime: "March to June, September to November",
     weather: "Pleasant",
@@ -44,7 +44,7 @@ const destination = [
   {
     id: 5,
     name: "Badrinath",
-    image: "/images/badrinath.jpg",
+    image: "images/badrinath.jpg",
     description: "Sacred temple town and part of Char Dham",
     bestTime: "May to June, September to October",
     weather: "Cold",
@@ -54,7 +54,7 @@ const destination = [
   {
     id: 6,
     name: "Valley of Flowers",
-    image: "/images/valley_of_flower.avif",
+    image: "images/valley_of_flower.avif",
     description:
       "UNESCO World Heritage Site known for its meadows of endemic alpine flowers",
     bestTime: "July to September",
@@ -65,7 +65,7 @@ const destination = [
   {
     id: 7,
     name: "Auli",
-    image: "/images/auli.jpg",
+    image: "images/auli.jpg",
     description: "Popular skiing destination with beautiful slopes",
     bestTime: "November to March",
     weather: "Cold",
@@ -75,7 +75,7 @@ const destination = [
   {
     id: 8,
     name: "Jim Corbett",
-    image: "/images/national_park.jpg",
+    image: "images/national_park.jpg",
     description: "Famous national park known for tigers and wildlife",
     bestTime: "November to June",
     weather: "Moderate",
