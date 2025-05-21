@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://Vijaysinghnegi007.github.io/tour-travel",
+  "homepage": "https://Vijaysinghnegi007.github.io/tour-travel/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

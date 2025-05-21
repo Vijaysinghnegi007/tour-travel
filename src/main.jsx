@@ -5,7 +5,7 @@ import App from "./App.jsx";
 import "./index.css"; // Import your CSS file here
 
 createRoot(document.getElementById("root")).render(
-  <BrowserRouter basename="/tour-travel">
+
     <App />
-  </BrowserRouter>
+
 );
