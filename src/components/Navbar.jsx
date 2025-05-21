@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { Menu, X, MapPin, Phone, Mail } from "lucide-react";
-import { Link } from "react-router-dom";
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -15,33 +14,33 @@ function Navbar() {
           </div>
           {/* Desktop Menu */}
           <div className="hidden lg:flex items-center space-x-8">
-            <link to="/home" className="text-gray-700 hover:text-indigo-600">
+            <a href="/home" className="text-gray-700 hover:text-indigo-600">
               Home
-            </link>
-            <link to="/packages" className="text-gray-700 hover:text-indigo-600">
+            </a>
+            <a href="/packages" className="text-gray-700 hover:text-indigo-600">
               Tour Packages
-            </link>
-            <link
-              to="/destinations"
+            </a>
+            <a
+              href="/destinations"
               className="text-gray-700 hover:text-indigo-600"
             >
               Destinations
-            </link>
-            <link to="/about" className="text-gray-700 hover:text-indigo-600">
+            </a>
+            <a href="/about" className="text-gray-700 hover:text-indigo-600">
               About
-            </link>
-            <link to="/blog" className="text-gray-700 hover:text-indigo-600">
+            </a>
+            <a href="/blog" className="text-gray-700 hover:text-indigo-600">
               blog
-            </link>
-            <li to="/contact" className="text-gray-700 hover:text-indigo-600">
+            </a>
+            <a href="/contact" className="text-gray-700 hover:text-indigo-600">
               Contact
-            </li>
-            <link
-              to="/login"
+            </a>
+            <a
+              href="/login"
               className="bg-indigo-600 text-white px-6 py-2 rounded-full hover:bg-indigo-700 transition duration-300"
             >
               Login
-            </link>
+            </a>
           </div>
 
           {/* Mobile Menu Button */}
@@ -54,45 +53,45 @@ function Navbar() {
         {isOpen && (
           <div className="lg:hidden">
             <div className="flex flex-col space-y-4 py-4">
-              <link to="/home" className="text-gray-700 hover:text-indigo-600">
+              <a href="/home" className="text-gray-700 hover:text-indigo-600">
                 Home
-              </link>
-              <link
-                to="/packages"
+              </a>
+              <a
+                href="/packages"
                 className="text-gray-700 hover:text-indigo-600"
               >
                 Tour Packages
-              </link>
-              <link
-                to="/destinations"
+              </a>
+              <a
+                href="/destinations"
                 className="text-gray-700 hover:text-indigo-600"
               >
                 Destinations
-              </link>
-              <link to="/about" className="text-gray-700 hover:text-indigo-600">
+              </a>
+              <a href="/about" className="text-gray-700 hover:text-indigo-600">
                 About
-              </link>
-              <link to="/blog" className="text-gray-700 hover:text-indigo-600">
+              </a>
+              <a href="/blog" className="text-gray-700 hover:text-indigo-600">
                 blog
-              </link>
-              <link
-                to="/contact"
+              </a>
+              <a
+                href="/contact"
                 className="text-gray-700 hover:text-indigo-600"
               >
                 Contact
-              </link>
-              <link
-                to="/login"
+              </a>
+              <a
+                href="/login"
                 className="bg-indigo-600 text-white px-6 py-2 rounded-full hover:bg-indigo-700 transition duration-300 text-center"
               >
                 Login
-              </link>
+              </a>
             </div>
           </div>
         )}
       </nav>
     </header>
   );
-};
+}
 
 export default Navbar;
