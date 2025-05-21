@@ -48,6 +48,6 @@ function Features() {
       </div>
     </section>
   );
-};
+}
 
 export default Features;
