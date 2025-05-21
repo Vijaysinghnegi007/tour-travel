@@ -14,7 +14,7 @@ function Navbar() {
           </div>
           {/* Desktop Menu */}
           <div className="hidden lg:flex items-center space-x-8">
-            <a href="/home" className="text-gray-700 hover:text-indigo-600">
+            <a href="/" className="text-gray-700 hover:text-indigo-600">
               Home
             </a>
             <a href="/packages" className="text-gray-700 hover:text-indigo-600">
@@ -53,7 +53,7 @@ function Navbar() {
         {isOpen && (
           <div className="lg:hidden">
             <div className="flex flex-col space-y-4 py-4">
-              <a href="/home" className="text-gray-700 hover:text-indigo-600">
+              <a href="/" className="text-gray-700 hover:text-indigo-600">
                 Home
               </a>
               <a
