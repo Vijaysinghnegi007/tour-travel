@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import destination from "./destination";
+// import destination from "./destination";
 import { MapPin, Calendar, Sun, Cloud } from "lucide-react";
 const destination = [
   {
